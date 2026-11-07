@@ -1,4 +1,20 @@
 thoughts.txt
 zero-to-tech-demos
-node_modules
-dist
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# misc
+*.log
+.env*
