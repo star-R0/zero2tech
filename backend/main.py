@@ -56,7 +56,7 @@ class AnalyzeRequest(BaseModel):
 
 
 @app.get("/api/profile")
-def get_profile():
+def get_profile():#
     return profile
 
 def score_label(score):
